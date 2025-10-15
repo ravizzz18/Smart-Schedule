@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Smart Schedule - Sign In</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />*/
+  </head>
+  <body>
+    <main class="sign-in-form-desktop">
+      <div class="div">
+        <img class="image" src="image.webp" alt="Classroom scene with students" />
+        <div class="frame">
+          <div class="frame-2">
+            <header class="frame-3">
+              <div class="UI-unicorn-logo">
+                <img class="avatar-UI-unicorn" src="img/avatar-UI-unicorn-v2.png" alt="Smart Schedule logo" />
+                <h1 class="text-wrapper">Smart Schedule</h1>
+              </div>
+              <nav class="BG-tab-switcher" role="tablist" aria-label="Authentication mode">
+                <div class="tab-switcher-button" role="tab" aria-selected="true" aria-controls="signin-panel">
+                  <div class="dis-wrapper"><span class="dis">Sign in</span></div>
+                </div>
+                <button
+                  class="frame-wrapper"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="signup-panel"
+                >
+                  <div class="dis-wrapper"><span class="dis-2">Sign up</span></div>
+                </button>
+              </nav>
+            </header>
+            <section class="sign-in-forms" id="signin-panel" role="tabpanel">
+              <form class="sign-in-form-web" method="post" action="/signin" novalidate>
+                <div class="frame-4">
+                  <h2 class="element">Nice to see you again</h2>
+                  <div class="frame-5">
+                    <div class="frame-6">
+                      <div class="input-configurator">
+                        <div class="input-configurator-2">
+                          <div class="satellite-input">
+                            <label for="login-input" class="text-wrapper-2">Login</label>
+                          </div>
+                          <div class="regular-input-double-wrapper">
+                            <div class="regular-input-double">
+                              <div class="placeholder-value">
+                                <div class="frame-7">
+                                  <input
+                                    type="text"
+                                    id="login-input"
+                                    name="login"
+                                    class="text-wrapper-3"
+                                    placeholder="Email or phone number"
+                                    autocomplete="username"
+                                    required
+                                    aria-required="true"
+                                  />
+                                </div>
+                              </div>
+                              <img class="input-icons" src="img/input-icons.svg" alt="" aria-hidden="true" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-configurator">
+                        <div class="input-configurator-2">
+                          <div class="satellite-input">
+                            <label for="password-input" class="text-wrapper-2">Password</label>
+                          </div>
+                          <div class="regular-input-double-wrapper">
+                            <div class="regular-input-double">
+                              <div class="placeholder-value">
+                                <div class="frame-7">
+                                  <input
+                                    type="password"
+                                    id="password-input"
+                                    name="password"
+                                    class="text-wrapper-3"
+                                    placeholder="Enter password"
+                                    autocomplete="current-password"
+                                    required
+                                    aria-required="true"
+                                  />
+                                </div>
+                              </div>
+                              <button type="button" class="img" aria-label="Toggle password visibility">
+                                <img src="img/image.svg" alt="" aria-hidden="true" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="frame-8">
+                      <div class="switcher-item-left">
+                        <label class="switcher" for="remember-me">
+                          <input type="checkbox" id="remember-me" name="remember" class="knob-icon" />
+                          <span class="knob"></span>
+                        </label>
+                        <label for="remember-me" class="description">Remember me</label>
+                      </div>
+                      <a href="/forgot-password" class="description-2">Forgot password?</a>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="primary-button" aria-label="Sign in">
+                  <img src="img/primary-button-40px.png" alt="Sign in" />
+                </button>
+                <hr class="nav" aria-hidden="true" />
+                <div class="frame-9">
+                  <button type="button" class="google-big-button" aria-label="Sign in with Google">
+                    <span class="frame-10">
+                      <img class="other-pay-method" src="img/other-pay-method.svg" alt="" aria-hidden="true" />
+                      <span class="p">Or sign in with Google</span>
+                    </span>
+                  </button>
+                </div>
+              </form>
+              <div class="sign-up-offer">
+                <span class="description-3">Dont have an account?</span>
+                <a href="/signup" class="description-4">Sign up now</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

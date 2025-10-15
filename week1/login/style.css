@@ -1,0 +1,771 @@
+.sign-in-form-desktop {
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+}
+
+.sign-in-form-desktop .div {
+  margin-top: -0.2px;
+  flex: 1;
+  margin-bottom: -0.2px;
+  width: 1440px;
+  height: 900.5px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.sign-in-form-desktop .image {
+  position: relative;
+  width: 990px;
+  height: 899.75px;
+  object-fit: cover;
+}
+
+.sign-in-form-desktop .frame {
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 228px;
+  padding: 48px;
+  position: relative;
+  align-self: stretch;
+  margin-right: -6.00px;
+  background-color: #ffffff;
+}
+
+.sign-in-form-desktop .frame-2 {
+  display: flex;
+  flex-direction: column;
+  height: 599px;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.sign-in-form-desktop .frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .UI-unicorn-logo {
+  position: relative;
+  width: 149.17px;
+  height: 48px;
+}
+
+.sign-in-form-desktop .avatar-UI-unicorn {
+  position: absolute;
+  width: 32.18%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.sign-in-form-desktop .text-wrapper {
+  position: absolute;
+  width: 183.69%;
+  height: 93.75%;
+  top: 21.88%;
+  left: 40.22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--m3-headline-medium-emphasized-font-family);
+  font-weight: var(--m3-headline-medium-emphasized-font-weight);
+  color: #000000;
+  font-size: var(--m3-headline-medium-emphasized-font-size);
+  letter-spacing: var(--m3-headline-medium-emphasized-letter-spacing);
+  line-height: var(--m3-headline-medium-emphasized-line-height);
+  font-style: var(--m3-headline-medium-emphasized-font-style);
+}
+
+.sign-in-form-desktop .BG-tab-switcher {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--black-100-e5e5e5);
+  border-radius: 8px;
+  border: 0.5px solid;
+  border-color: #cccccc40;
+  opacity: 0;
+}
+
+.sign-in-form-desktop .tab-switcher-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--white-ffffff);
+  border-radius: 6px;
+  border: 0.5px solid;
+  border-color: var(--black-100-e5e5e5);
+}
+
+.sign-in-form-desktop .dis-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .dis {
+  font-family: var(--micro-button-label-font-family);
+  font-weight: var(--micro-button-label-font-weight);
+  color: var(--black-000000);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-size: var(--micro-button-label-font-size);
+  text-align: center;
+  letter-spacing: var(--micro-button-label-letter-spacing);
+  line-height: var(--micro-button-label-line-height);
+  white-space: nowrap;
+  font-style: var(--micro-button-label-font-style);
+}
+
+.sign-in-form-desktop .frame-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+}
+
+.sign-in-form-desktop .dis-2 {
+  font-family: var(--micro-button-label-font-family);
+  font-weight: var(--micro-button-label-font-weight);
+  color: var(--black-600-666666);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-size: var(--micro-button-label-font-size);
+  text-align: center;
+  letter-spacing: var(--micro-button-label-letter-spacing);
+  line-height: var(--micro-button-label-line-height);
+  white-space: nowrap;
+  font-style: var(--micro-button-label-font-style);
+}
+
+.sign-in-form-desktop .sign-in-forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .sign-in-form-web {
+  flex-direction: column;
+  gap: 32px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.sign-in-form-desktop .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .element {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+  color: #1a1a1a;
+  font-size: var(--title-font-size);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  font-style: var(--title-font-style);
+}
+
+.sign-in-form-desktop .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .input-configurator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .input-configurator-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .satellite-input {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--hint-placeholder-font-family);
+  font-weight: var(--hint-placeholder-font-weight);
+  color: var(--black-800-333333);
+  font-size: var(--hint-placeholder-font-size);
+  letter-spacing: var(--hint-placeholder-letter-spacing);
+  line-height: var(--hint-placeholder-line-height);
+  font-style: var(--hint-placeholder-font-style);
+}
+
+.sign-in-form-desktop .regular-input-double-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 48px;
+  background-color: var(--black-50-f2f2f2);
+  border-radius: 6px;
+  border: 0.5px solid;
+  border-color: var(--black-100-e5e5e5);
+}
+
+.sign-in-form-desktop .regular-input-double {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  position: relative;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.sign-in-form-desktop .placeholder-value {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .text-wrapper-3 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--placeholder-value-font-family);
+  font-weight: var(--placeholder-value-font-weight);
+  color: var(--black-500-808080);
+  font-size: var(--placeholder-value-font-size);
+  letter-spacing: var(--placeholder-value-letter-spacing);
+  line-height: var(--placeholder-value-line-height);
+  white-space: nowrap;
+  font-style: var(--placeholder-value-font-style);
+}
+
+.sign-in-form-desktop .input-icons {
+  margin-top: -303.50px;
+  margin-left: -1619px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .frame-8 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .switcher-item-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.sign-in-form-desktop .switcher {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: var(--black-50-f2f2f2);
+  border-radius: 36.5px;
+  overflow: hidden;
+  border: 0.5px solid;
+  border-color: var(--black-100-e5e5e5);
+}
+
+.sign-in-form-desktop .knob-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.sign-in-form-desktop .knob {
+  position: relative;
+  width: 80.00%;
+  height: 80.00%;
+  top: 10.00%;
+  left: 10.00%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px -1px #3333334c;
+}
+
+.sign-in-form-desktop .description {
+  flex: 1;
+  color: var(--black-900-1a1a1a);
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+}
+
+.sign-in-form-desktop .description-2 {
+  flex: 1;
+  color: var(--system-blue-007aff);
+  text-align: right;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+}
+
+.sign-in-form-desktop .primary-button {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .nav {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: var(--black-100-e5e5e5);
+}
+
+.sign-in-form-desktop .frame-9 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .google-big-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--black-800-333333);
+  border-radius: 6px;
+}
+
+.sign-in-form-desktop .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .other-pay-method {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.sign-in-form-desktop .p {
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-size: var(--checkbox-font-size);
+  text-align: center;
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  white-space: nowrap;
+  font-style: var(--checkbox-font-style);
+}
+
+.sign-in-form-desktop .sign-up-offer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-in-form-desktop .description-3 {
+  width: fit-content;
+  color: var(--black-900-1a1a1a);
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+}
+
+.sign-in-form-desktop .description-4 {
+  width: fit-content;
+  color: var(--system-blue-007aff);
+  text-align: right;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+}
+/* Inject original CSS code here */
+
+.sign-in-form-desktop .text-wrapper-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin-top: -1.00px;
+  font-family: var(--placeholder-value-font-family);
+  font-weight: var(--placeholder-value-font-weight);
+  color: var(--black-500-808080);
+  font-size: var(--placeholder-value-font-size);
+  letter-spacing: var(--placeholder-value-letter-spacing);
+  line-height: var(--placeholder-value-line-height);
+  white-space: nowrap;
+  font-style: var(--placeholder-value-font-style);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.sign-in-form-desktop .text-wrapper-3:focus {
+  color: var(--black-000000);
+}
+
+.sign-in-form-desktop .text-wrapper-3::placeholder {
+  color: var(--black-500-808080);
+}
+
+.sign-in-form-desktop .img {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 0 0 auto;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-form-desktop .img img {
+  display: block;
+}
+
+.sign-in-form-desktop .knob-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sign-in-form-desktop .switcher {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: var(--black-50-f2f2f2);
+  border-radius: 36.5px;
+  overflow: visible;
+  border: 0.5px solid;
+  border-color: var(--black-100-e5e5e5);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.sign-in-form-desktop .knob {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 1px 1px 2px -1px #3333334c;
+  transition: transform 0.2s ease;
+}
+
+.sign-in-form-desktop .knob-icon:checked + .knob {
+  transform: translateX(20px);
+}
+
+.sign-in-form-desktop .knob-icon:checked ~ .switcher {
+  background-color: var(--system-blue-007aff);
+}
+
+.sign-in-form-desktop .knob-icon:focus-visible + .knob {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.sign-in-form-desktop .switcher-item-left label[for="remember-me"] {
+  cursor: pointer;
+}
+
+.sign-in-form-desktop .primary-button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  display: block;
+}
+
+.sign-in-form-desktop .primary-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sign-in-form-desktop .primary-button:hover {
+  opacity: 0.9;
+}
+
+.sign-in-form-desktop .primary-button:active {
+  opacity: 0.8;
+}
+
+.sign-in-form-desktop .google-big-button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--black-800-333333);
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.sign-in-form-desktop .google-big-button:hover {
+  background-color: #404040;
+}
+
+.sign-in-form-desktop .google-big-button:active {
+  background-color: #2a2a2a;
+}
+
+.sign-in-form-desktop .description-2 {
+  flex: 1;
+  color: var(--system-blue-007aff);
+  text-align: right;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sign-in-form-desktop .description-2:hover {
+  text-decoration: underline;
+}
+
+.sign-in-form-desktop .description-4 {
+  width: fit-content;
+  color: var(--system-blue-007aff);
+  text-align: right;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--checkbox-font-family);
+  font-weight: var(--checkbox-font-weight);
+  font-size: var(--checkbox-font-size);
+  letter-spacing: var(--checkbox-letter-spacing);
+  line-height: var(--checkbox-line-height);
+  font-style: var(--checkbox-font-style);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sign-in-form-desktop .description-4:hover {
+  text-decoration: underline;
+}
+
+.sign-in-form-desktop .frame-wrapper:hover {
+  background-color: var(--black-50-f2f2f2);
+}
+
+.sign-in-form-desktop .frame-wrapper:active {
+  background-color: var(--black-100-e5e5e5);
+}
+
+.sign-in-form-desktop .nav {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: var(--black-100-e5e5e5);
+  border: none;
+  margin: 0;
+}
+
+.sign-in-form-desktop .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.sign-in-form-desktop .placeholder-value {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  width: 100%;
+}
